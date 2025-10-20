@@ -128,7 +128,7 @@ const SingleUserPage = () => {
               <h1 className="text-xl font-semibold">User Information</h1>
               <Sheet>
                 <SheetTrigger asChild>
-                  <Button>Edit User</Button>
+                  <Button variant="outline">Edit User</Button>
                 </SheetTrigger>
                 <EditUser />
               </Sheet>
@@ -168,7 +168,6 @@ const SingleUserPage = () => {
         </div>
         {/* RIGHT */}
         <div className="w-full xl:w-2/3 space-y-6">
-          
           {/* CHART CONTAINER */}
           <div className="bg-primary-foreground p-4 rounded-lg">
             <h1 className="text-xl font-semibold">User Activity</h1>
